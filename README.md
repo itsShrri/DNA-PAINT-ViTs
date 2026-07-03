@@ -3,6 +3,8 @@ This repository contains the PyTorch implementation of a machine learning pipeli
 # The DNA-PAINT Dataset
 DNA-PAINT is a super-resolution microscopy technique that relies on the transient binding and unbinding ("blinking") of fluorescent DNA strands. The dataset consists of highly noisy, diffraction-limited optical data. The primary challenge is distinguishing true molecular binding events from transient background noise and irregular optical artifacts that temporarily mimic target molecules.
 
+The dataset link: https://figshare.com/articles/figure/On_time_varied_data_tar_xz/28606874?file=53039177
+
 # Peak Frame Classification (ViT & CvT)
 My initial approach treated classification as a static image recognition task.
 - Extracted only the peak brightness frame from each detected event.
